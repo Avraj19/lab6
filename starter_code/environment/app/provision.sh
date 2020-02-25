@@ -25,4 +25,4 @@ sudo apt-get install nginx -y
 # finally, restart the nginx service so the new config takes hold
 sudo service nginx restart
 
-sudo cat /vagrant/environment/app/pub_key.pub >> /home/vagrant/.ssh/authorized_key
+sudo cat /vagrant/environment/app/jenkins_key.pub >> /home/vagrant/.ssh/authorized_key
